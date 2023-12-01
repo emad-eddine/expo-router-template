@@ -5,12 +5,12 @@
     "version": "0.0.1",
     "scheme": "gym-universe-admin-scheme",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./app/assets/icons/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./app/assets/images/splash_screen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "##13131A"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,12 +20,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "foregroundImage": "./app/assets/icons/foreground.png",
+        "backgroundColor": "##13131A"
+      },
+      "package": "com.imad311.gymUniverse"
     },
     "plugins": [
       "expo-router"
